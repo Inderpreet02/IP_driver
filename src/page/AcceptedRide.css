@@ -1,0 +1,31 @@
+.ar__items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ar__item{
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+}
+
+.ar__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ar__user{
+    font-size: 20px;
+    color: teal;
+}
+
+.ar__img{
+    width: 150px;
+}
+
+.ar__bottom{
+    display: flex;
+    justify-content: space-evenly;
+}

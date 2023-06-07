@@ -1,0 +1,28 @@
+.login__container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.login__form{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.login__input{
+    width: calc(100% - 10px);
+    height: 40px;
+    font-size: 20px;
+}
+
+.login__btn{
+    height: 40px;
+    font-size: 20px;
+}
+
+.login__btn:hover{
+    cursor: pointer;
+}

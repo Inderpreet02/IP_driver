@@ -1,0 +1,29 @@
+.rideP{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.ride__options{
+    flex: 1;
+}
+
+.ride__bet{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.ride__bet > input {
+    flex: 1;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.ride__betBtn{
+    width: 70px;
+    font-size: 40px;
+    border: none;
+    outline: none;
+    border-radius: 0;
+}
